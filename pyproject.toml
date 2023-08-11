@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ZyGinator"
+version = "0.0.6"
+description = "A Python library to easily create embed paginators."
+authors = ["zyrexxx"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ZyGinator"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+disnake = ">=2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
